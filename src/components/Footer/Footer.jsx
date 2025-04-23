@@ -1,6 +1,7 @@
 import React from 'react'
 import twiter from '../../assets/images/twitter-logo-2 3.png'
 import Logo from '../../assets/images/fi_16340199.png'
+import { Link } from 'react-router'
 export const Footer = () => {
   return (
     <footer className="bg-white py-10 text-center border-t">
@@ -13,10 +14,10 @@ export const Footer = () => {
 
       {/* Navigation Links */}
       <div className="flex space-x-6 text-sm text-gray-600">
-        <a href="#" className="hover:text-black">Home</a>
-        <a href="#" className="hover:text-black">My-Bookings</a>
-        <a href="#" className="hover:text-black">Blogs</a>
-        <a href="#" className="hover:text-black">Contact Us</a>
+      <Link className='m-3 text-[#6a6a6a]' to="/"> Home</Link>
+    <Link className='m-3 text-[#6a6a6a]' to="/my-bookings">My-Bookings</Link>
+    <Link className='m-3 text-[#6a6a6a]' to="/blogs">Blogs</Link>
+    <Link className='m-3 text-[#6a6a6a]' to="/contact-us">Contact Us</Link>
       </div>
 
       {/* Divider */}

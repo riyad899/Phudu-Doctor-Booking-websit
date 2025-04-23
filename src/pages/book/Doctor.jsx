@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export const Doctor = ({ singleDoctor }) => {
   return (
@@ -29,9 +30,12 @@ export const Doctor = ({ singleDoctor }) => {
         <p className="text-gray-500 text-sm">
           <span className="font-semibold">Reg No:</span> {singleDoctor.registrationNumber}
         </p>
+        <Link to={`/singleBook/${singleDoctor.id}`}>
         <button className="mt-4 px-6 py-2 w-[300px]  h-[49px] border border-blue-600 text-[blue] rounded-full hover:bg-blue-700 transition hover:text-[#FFFFFF]">
           View Details
         </button>
+
+        </Link>
       </div>
     </div>
   );

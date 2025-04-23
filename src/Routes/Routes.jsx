@@ -1,25 +1,52 @@
-import React from 'react'
-import {
-    createBrowserRouter,
-    RouterProvider,
-  } from "react-router";
-import { Root } from '../pages/root/Root';
-import { ErrorPage } from '../pages/error/ErrorPage';
-import { Home } from '../components/Home/Home';
+    import React from 'react'
+    import {
+        createBrowserRouter,
+        RouterProvider,
+    } from "react-router";
+    import { Root } from '../pages/root/Root';
+    import { ErrorPage } from '../pages/error/ErrorPage';
+    import { Home } from '../components/Home/Home';
+    import { SingleBook } from '../pages/SingleBook/SingleBook';
+    import { MyBookings } from '../pages/MyBookings/MyBookings';
+    import { Blogs } from '../pages/Blogs/Blogs';
+    import { ContactUs } from '../pages/ContactUs/ContactUs';
+    import { Emergency } from '../pages/Emergency/Emergency';
 
 
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root></Root>,
-    errorElement:<ErrorPage></ErrorPage>,
-    children:[
+    export const router = createBrowserRouter([
         {
-            index:true,
-            loader:()=>fetch('doctors.json'),
-            path:"/",
-            element:<Home></Home>
-        }
-    ]
-  },
-]);
+        path: "/",
+        element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
+        children: [
+            {
+            index: true,
+            loader: () => fetch('doctors.json'),
+            element: <Home />
+            },
+            {
+            path: '/singleBook/:id',
+            loader: () => fetch('doctors.json'),
+            element: <SingleBook />
+            },
+            {
+            path: '/my-bookings',
+            element: <MyBookings />
+            },
+            {
+            path: '/blogs',
+            element: <Blogs />
+            },
+            {
+            path: '/contact-us',
+            element: <ContactUs />
+            },
+            {
+            path: '/emergency',
+
+            element: <Emergency />
+            }
+        ]
+
+        },
+    ]);

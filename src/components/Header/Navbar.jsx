@@ -1,14 +1,17 @@
 import React from 'react'
 import logo from '../../assets/images/fi_16340199.png'
+import { Link } from 'react-router'
+
 
 
 export const Navbar = () => {
-    const Link = <>
-    <li className='m-3 text-[#6a6a6a]'>Home</li>
-    <li  className='m-3 text-[#6a6a6a]' >My-Bookings</li>
-    <li  className='m-3 text-[#6a6a6a]' >Blogs</li>
-    <li  className='m-3 text-[#6a6a6a]'>Contact Us</li>
-    </>
+    const LinkItems = <>
+    <Link className='m-3 text-[#6a6a6a]' to="/"> Home</Link>
+    <Link className='m-3 text-[#6a6a6a]' to="/my-bookings">My-Bookings</Link>
+    <Link className='m-3 text-[#6a6a6a]' to="/blogs">Blogs</Link>
+    <Link className='m-3 text-[#6a6a6a]' to="/contact-us">Contact Us</Link>
+
+</>
     return (
 
         <div className="navbar shadow-sm ">
@@ -20,7 +23,7 @@ export const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm  dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                       {Link}
+                       {LinkItems}
                     </ul>
                 </div>
                 <div className='flex pl-[15%]'>
@@ -31,7 +34,7 @@ export const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                 {Link}
+                 {LinkItems}
                 </ul>
             </div>
             <div className="navbar-end pr-[5%] ">
