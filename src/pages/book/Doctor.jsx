@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-export const Doctor = ({ singleDoctor }) => {
+export const Doctor = ({ data,singleDoctor }) => {
   return (
     <div className="card w-[350px] h-[463px] bg-white rounded-xl shadow-md p-5 flex flex-col justify-between">
       <figure className="w-full h-[250px] overflow-hidden rounded-xl">
@@ -30,7 +30,7 @@ export const Doctor = ({ singleDoctor }) => {
         <p className="text-gray-500 text-sm">
           <span className="font-semibold">Reg No:</span> {singleDoctor.registrationNumber}
         </p>
-        <Link to={`/singleBook/${singleDoctor.id}`}>
+        <Link to={`/singleBook/${singleDoctor.registrationNumber}`}>
         <button className="mt-4 px-6 py-2 w-[300px]  h-[49px] border border-blue-600 text-[blue] rounded-full hover:bg-blue-700 transition hover:text-[#FFFFFF]">
           View Details
         </button>

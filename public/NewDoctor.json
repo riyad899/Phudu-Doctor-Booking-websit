@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/D3BXGbj/2-removebg-preview.webp",
+      "name": "Dr. Ayesha Rahman",
+      "education": "MBBS, FCPS (Medicine)",
+      "speciality": "Internal Medicine",
+      "experience": "10 years",
+      "registrationNumber": "BMDC-123456",
+      "detailsRoute": "/doctor-details/ayesha-rahman"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/6J7P6Tcf/9-removebg-preview.webp",
+      "name": "Dr. Tahmid Islam",
+      "education": "MBBS, MS (Surgery)",
+      "speciality": "General Surgeon",
+      "experience": "12 years",
+      "registrationNumber": "BMDC-654321",
+      "detailsRoute": "/doctor-details/tahmid-islam"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co.com/60rgG5Cv/4-removebg-preview.webp",
+      "name": "Dr. Nusrat Jahan",
+      "education": "MBBS, DGO",
+      "speciality": "Gynecology & Obstetrics",
+      "experience": "8 years",
+      "registrationNumber": "BMDC-789012",
+      "detailsRoute": "/doctor-details/nusrat-jahan"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co.com/wr3jxSsw/12-removebg-preview.webp",
+      "name": "Dr. Saif Ahmed",
+      "education": "MBBS, MD (Cardiology)",
+      "speciality": "Cardiologist",
+      "experience": "15 years",
+      "registrationNumber": "BMDC-890123",
+      "detailsRoute": "/doctor-details/saif-ahmed"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co.com/Q3Wq3wqR/7-removebg-preview.webp",
+      "name": "Dr. Liza Chowdhury",
+      "education": "MBBS, FCPS (Dermatology)",
+      "speciality": "Dermatologist",
+      "experience": "7 years",
+      "registrationNumber": "BMDC-456789",
+      "detailsRoute": "/doctor-details/liza-chowdhury"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co.com/Rk9BbNb1/8-removebg-preview.webp",
+      "name": "Dr. Mahmud Hasan",
+      "education": "MBBS, MD (Pediatrics)",
+      "speciality": "Pediatrician",
+      "experience": "9 years",
+      "registrationNumber": "BMDC-345678",
+      "detailsRoute": "/doctor-details/mahmud-hasan"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co.com/JWtGbZBb/3-removebg-preview.webp",
+      "name": "Dr. Faria Sultana",
+      "education": "MBBS, MS (ENT)",
+      "speciality": "ENT Specialist",
+      "experience": "6 years",
+      "registrationNumber": "BMDC-234567",
+      "detailsRoute": "/doctor-details/faria-sultana"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co.com/5X79XFWM/10-removebg-preview.webp",
+      "name": "Dr. Rifat Kabir",
+      "education": "MBBS, MD (Neurology)",
+      "speciality": "Neurologist",
+      "experience": "11 years",
+      "registrationNumber": "BMDC-567890",
+      "detailsRoute": "/doctor-details/rifat-kabir"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co.com/m5qx1GSq/11-removebg-preview.webp",
+      "name": "Dr. Nayeem Hossain",
+      "education": "MBBS, FCPS (Orthopedics)",
+      "speciality": "Orthopedic Surgeon",
+      "experience": "13 years",
+      "registrationNumber": "BMDC-678901",
+      "detailsRoute": "/doctor-details/nayeem-hossain"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co.com/G407K2XV/5-removebg-preview.webp",
+      "name": "Dr. Meherun Nesa",
+      "education": "MBBS, MD (Nephrology)",
+      "speciality": "Nephrologist",
+      "experience": "10 years",
+      "registrationNumber": "BMDC-112233",
+      "detailsRoute": "/doctor-details/meherun-nesa"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co.com/60rgG5Cv/4-removebg-preview.webp",
+      "name": "Dr. Samiul Alam",
+      "education": "MBBS, MS (Urology)",
+      "speciality": "Urologist",
+      "experience": "8 years",
+      "registrationNumber": "BMDC-445566",
+      "detailsRoute": "/doctor-details/samiul-alam"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co.com/wr3jxSsw/12-removebg-preview.webp",
+      "name": "Dr. Tahmina Akter",
+      "education": "MBBS, FCPS (Psychiatry)",
+      "speciality": "Psychiatrist",
+      "experience": "9 years",
+      "registrationNumber": "BMDC-778899",
+      "detailsRoute": "/doctor-details/tahmina-akter"
+    }
+  ]

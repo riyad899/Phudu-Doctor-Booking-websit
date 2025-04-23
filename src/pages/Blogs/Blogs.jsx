@@ -68,7 +68,7 @@ export const Blogs = () => {
     <div className="p-6 max-w-4xl mx-auto text-gray-800">
       <h1 className="text-3xl font-bold mb-6">Blogs</h1>
       <p className="text-gray-500 mb-8">Let's explore some basic concepts that will make you a good developer</p>
-      <p className="text-red-600 mb-4">raditkhanyt@gmail.com</p>
+   
       {blogs.map((blog) => (
         <div key={blog.id} className="mb-8 border-b pb-4">
           <h2 className="font-semibold text-lg mb-1">{blog.question}</h2>

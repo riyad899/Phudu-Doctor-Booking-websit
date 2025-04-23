@@ -1,17 +1,52 @@
 import React from 'react'
 import logo from '../../assets/images/fi_16340199.png'
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router'
 
 
 
 export const Navbar = () => {
-    const LinkItems = <>
-    <Link className='m-3 text-[#6a6a6a]' to="/"> Home</Link>
-    <Link className='m-3 text-[#6a6a6a]' to="/my-bookings">My-Bookings</Link>
-    <Link className='m-3 text-[#6a6a6a]' to="/blogs">Blogs</Link>
-    <Link className='m-3 text-[#6a6a6a]' to="/contact-us">Contact Us</Link>
+    const activeStyle = (isActive) => {
+        return {
+            color: isActive ? "blue" : "#6a6a6a",
+            fontWeight: isActive ? "bold" : "normal"
+        };
+    };
 
-</>
+    const LinkItems = (
+        <>
+            <NavLink
+                className='m-3'
+                to="/"
+                style={({ isActive }) => activeStyle(isActive)}
+            >
+                Home
+            </NavLink>
+
+            <NavLink
+                className='m-3'
+                to="/my-bookings"
+                style={({ isActive }) => activeStyle(isActive)}
+            >
+                My-Bookings
+            </NavLink>
+
+            <NavLink
+                className='m-3'
+                to="/blogs"
+                style={({ isActive }) => activeStyle(isActive)}
+            >
+                Blogs
+            </NavLink>
+
+            <NavLink
+                className='m-3'
+                to="/contact-us"
+                style={({ isActive }) => activeStyle(isActive)}
+            >
+                Contact Us
+            </NavLink>
+        </>
+    );
     return (
 
         <div className="navbar shadow-sm ">

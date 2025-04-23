@@ -22,11 +22,17 @@
             {
             index: true,
             loader: () => fetch('doctors.json'),
-            element: <Home />
+            element: <Home/>
             },
             {
-            path: '/singleBook/:id',
-            loader: () => fetch('doctors.json'),
+            path: '/singleBook/:registrationNumber',
+            loader: async () => {
+                const response = await fetch('/NewDoctor.json');
+                if (!response.ok) {
+                  throw new Error('Failed to fetch data');
+                }
+                return response.json();
+              },
             element: <SingleBook />
             },
             {
