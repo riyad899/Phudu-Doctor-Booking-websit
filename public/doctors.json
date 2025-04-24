@@ -7,7 +7,10 @@
     "speciality": "Internal Medicine",
     "experience": "10 years",
     "registrationNumber": "BMDC-123456",
-    "detailsRoute": "/doctor-details/ayesha-rahman"
+    "detailsRoute": "/doctor-details/ayesha-rahman",
+    "profileDetails": "Expert in diagnosing and treating adult medical conditions, chronic illnesses, and preventative care.",
+    "availabilityDays": ["Sunday", "Tuesday", "Thursday"],
+    "consultationFee": "700 BDT"
   },
   {
     "id": 2,
@@ -17,7 +20,10 @@
     "speciality": "General Surgeon",
     "experience": "12 years",
     "registrationNumber": "BMDC-654321",
-    "detailsRoute": "/doctor-details/tahmid-islam"
+    "detailsRoute": "/doctor-details/tahmid-islam",
+    "profileDetails": "Performs a wide range of surgeries with specialization in abdominal and trauma surgeries.",
+    "availabilityDays": ["Monday", "Wednesday", "Friday"],
+    "consultationFee": "1000 BDT"
   },
   {
     "id": 3,
@@ -27,7 +33,10 @@
     "speciality": "Gynecology & Obstetrics",
     "experience": "8 years",
     "registrationNumber": "BMDC-789012",
-    "detailsRoute": "/doctor-details/nusrat-jahan"
+    "detailsRoute": "/doctor-details/nusrat-jahan",
+    "profileDetails": "Focused on women’s reproductive health, prenatal care, and childbirth management.",
+    "availabilityDays": ["Sunday", "Tuesday", "Thursday"],
+    "consultationFee": "800 BDT"
   },
   {
     "id": 4,
@@ -37,7 +46,10 @@
     "speciality": "Cardiologist",
     "experience": "15 years",
     "registrationNumber": "BMDC-890123",
-    "detailsRoute": "/doctor-details/saif-ahmed"
+    "detailsRoute": "/doctor-details/saif-ahmed",
+    "profileDetails": "Specialist in diagnosing and treating heart diseases and hypertension.",
+    "availabilityDays": ["Saturday", "Monday", "Wednesday"],
+    "consultationFee": "1200 BDT"
   },
   {
     "id": 5,
@@ -47,7 +59,10 @@
     "speciality": "Dermatologist",
     "experience": "7 years",
     "registrationNumber": "BMDC-456789",
-    "detailsRoute": "/doctor-details/liza-chowdhury"
+    "detailsRoute": "/doctor-details/liza-chowdhury",
+    "profileDetails": "Specialized in treating skin, hair, and nail disorders with a focus on cosmetic dermatology.",
+    "availabilityDays": ["Sunday", "Tuesday", "Friday"],
+    "consultationFee": "600 BDT"
   },
   {
     "id": 6,
@@ -57,7 +72,10 @@
     "speciality": "Pediatrician",
     "experience": "9 years",
     "registrationNumber": "BMDC-345678",
-    "detailsRoute": "/doctor-details/mahmud-hasan"
+    "detailsRoute": "/doctor-details/mahmud-hasan",
+    "profileDetails": "Experienced in child health, vaccinations, and treating pediatric illnesses.",
+    "availabilityDays": ["Monday", "Wednesday", "Saturday"],
+    "consultationFee": "700 BDT"
   },
   {
     "id": 7,
@@ -67,7 +85,10 @@
     "speciality": "ENT Specialist",
     "experience": "6 years",
     "registrationNumber": "BMDC-234567",
-    "detailsRoute": "/doctor-details/faria-sultana"
+    "detailsRoute": "/doctor-details/faria-sultana",
+    "profileDetails": "Treats ear, nose, and throat issues including hearing problems and sinusitis.",
+    "availabilityDays": ["Sunday", "Wednesday", "Thursday"],
+    "consultationFee": "500 BDT"
   },
   {
     "id": 8,
@@ -77,7 +98,10 @@
     "speciality": "Neurologist",
     "experience": "11 years",
     "registrationNumber": "BMDC-567890",
-    "detailsRoute": "/doctor-details/rifat-kabir"
+    "detailsRoute": "/doctor-details/rifat-kabir",
+    "profileDetails": "Specialist in treating brain, spinal cord, and nervous system disorders.",
+    "availabilityDays": ["Saturday", "Monday", "Thursday"],
+    "consultationFee": "1100 BDT"
   },
   {
     "id": 9,
@@ -87,7 +111,10 @@
     "speciality": "Orthopedic Surgeon",
     "experience": "13 years",
     "registrationNumber": "BMDC-678901",
-    "detailsRoute": "/doctor-details/nayeem-hossain"
+    "detailsRoute": "/doctor-details/nayeem-hossain",
+    "profileDetails": "Expert in treating bone and joint issues, fractures, and musculoskeletal injuries.",
+    "availabilityDays": ["Sunday", "Tuesday", "Friday"],
+    "consultationFee": "900 BDT"
   },
   {
     "id": 10,
@@ -97,7 +124,10 @@
     "speciality": "Nephrologist",
     "experience": "10 years",
     "registrationNumber": "BMDC-112233",
-    "detailsRoute": "/doctor-details/meherun-nesa"
+    "detailsRoute": "/doctor-details/meherun-nesa",
+    "profileDetails": "Focused on kidney care, dialysis, and management of chronic kidney diseases.",
+    "availabilityDays": ["Monday", "Thursday", "Saturday"],
+    "consultationFee": "1000 BDT"
   },
   {
     "id": 11,
@@ -107,7 +137,10 @@
     "speciality": "Urologist",
     "experience": "8 years",
     "registrationNumber": "BMDC-445566",
-    "detailsRoute": "/doctor-details/samiul-alam"
+    "detailsRoute": "/doctor-details/samiul-alam",
+    "profileDetails": "Treats urinary tract infections, kidney stones, and male reproductive issues.",
+    "availabilityDays": ["Sunday", "Wednesday", "Friday"],
+    "consultationFee": "950 BDT"
   },
   {
     "id": 12,
@@ -117,6 +150,9 @@
     "speciality": "Psychiatrist",
     "experience": "9 years",
     "registrationNumber": "BMDC-778899",
-    "detailsRoute": "/doctor-details/tahmina-akter"
+    "detailsRoute": "/doctor-details/tahmina-akter",
+    "profileDetails": "Specializes in diagnosing and managing mental health disorders like anxiety and depression.",
+    "availabilityDays": ["Monday", "Wednesday", "Thursday"],
+    "consultationFee": "850 BDT"
   }
 ]

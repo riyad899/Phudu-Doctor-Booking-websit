@@ -36,7 +36,8 @@
             element: <SingleBook />
             },
             {
-            path: '/my-bookings',
+            path: '/my-bookings/',
+            loader: () => fetch('doctors.json'),
             element: <MyBookings />
             },
             {
