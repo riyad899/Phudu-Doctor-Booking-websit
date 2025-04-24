@@ -1,6 +1,7 @@
 import React, { Suspense, useState, useEffect } from 'react';
 import { Doctor } from '../book/Doctor';
 import { Loading } from '../../components/Loading/Loading';
+import AnimatedCounter from '../../components/AnimatedCounter/AnimatedCounter';
 
 export const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
@@ -12,7 +13,7 @@ export const Doctors = () => {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('/doctors.json'); 
+      const response = await fetch('/doctors.json');
       if (!response.ok) throw new Error('Failed to fetch doctors');
       const data = await response.json();
       setDoctors(data);
@@ -91,6 +92,10 @@ export const Doctors = () => {
           {showAll ? 'Hide Doctors' : 'View All Doctors'}
         </button>
       )}
+      <AnimatedCounter></AnimatedCounter>
     </div>
+
+
+
   );
 };

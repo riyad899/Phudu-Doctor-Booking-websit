@@ -14,6 +14,7 @@ export const Home = () => {
    <Banner></Banner>
 
     <Doctors data={data}></Doctors>
+
     </>
   )
 }
