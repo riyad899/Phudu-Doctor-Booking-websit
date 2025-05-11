@@ -1,6 +1,6 @@
 # 🩺 Doctor Appointment Booking Platform
 
-![Project Screenshot](./assets/screenshot.png) <!-- Replace with actual image path -->
+
 
 ## 📖 Project Overview
 
