@@ -44,21 +44,13 @@ Clone the repository:
 git clone https://github.com/riyad899/Phudu-Doctor-Booking-websit.git
 Navigate to the project directory:
 
-bash
-Copy
-Edit
+
 cd Phudu-Doctor-Booking-websit
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
 Start the development server:
 
-bash
-Copy
-Edit
 npm start
 Visit http://localhost:3000 to view the application in your browser.
 
@@ -104,10 +96,6 @@ For any questions or support, please contact: [your-email@example.com]
 
 Dependable Care, Backed by Trusted Professionals.
 Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.
-
-yaml
-Copy
-Edit
 
 ---
 
